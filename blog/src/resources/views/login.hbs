@@ -1,63 +1,70 @@
-<div class="modal__overlay"></div>
-<!-- LogIn Form -->
-<div class="grid log__in-abs">
-    <div class="row no-gutters">
-        <div class="col l-7">
-            <div class="grid__item">
-                <img src="/img/shopee-w.png" alt="" class="modal__authen-img">
-                <p class="modal__authen-text">Nền tảng thương mại điện tử</p>
-                <p class="modal__authen-text">yêu thích ở Đông Nam Á & Đài Loan</p>
-            </div>
-        </div>
-        <div class="col l-5">
-            <div class="grid__item">
-                <div class="modal__body">
-                    <div class="modal__register">
+<!-- Register Form -->
+<div class="modal__overlay">
+    <!-- Register Form -->
+    <div class="grid">
+        <div class="login">
+            <div class="row no-gutters">
+                <div class="col l-7">
+                    <div class="message">
+                        <h1>Welcome Back!</h1>
+                        <p>Enter your personal details to use all of site features</p>
+                    </div>
+                </div>
+                <div class="col l-5">
+                    <div class="log__form">
                         <div class="modal__login-header">
-                            <h3 class="modal__auth-heading">Đăng nhập</h3>
+                            <h3 class="modal__auth-heading">LOG IN</h3>
                             <div class="modal__login-qr-form">
-                                <div class="modal__login-qr modal__login-qr--arrow">
-                                    <p class="modal__login-qr-heading">Đăng nhập với mã QR</p>
+                                <div class="modal__login-qr">
+                                    <p class="modal__login-qr-heading modal__login-qr--arrow">Login with QR code</p>
                                 </div>
-                                <a href="" class="modal__login-qr-link">
+                                <a href="javascript:void(0)" class="modal__login-qr-link">
                                     <img src="/img/qr_icon.png" alt="" class="modal__login-qr-img">
                                 </a>
                             </div>
                         </div>
-                        <div class="modal__auth-form">
-                            <input type="text" class="modal__auth-input" placeholder="Email/Số điện thoại/Tên đăng nhập">
-                            <input type="password" class="modal__auth-input" placeholder="Mật khẩu">
-                            <div class="modal__auth-button">
-                                <button class="modal__auth-but">ĐĂNG NHẬP</button>
+                        <form>
+                            <div class="form-floating mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
                             </div>
-                            <div class="modal__auth-sub-title">
-                                <a href="" class="modal__auth-subtit">Quên mật khẩu</a>
-                                <a href="" class="modal__auth-subtit">Đăng nhập với SMS</a>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
                             </div>
-                        </div>
-                        <div class="modal__auth-or">HOẶC</div>
-                        <div class="modal__auth-or-button">
-                            <button class="modal__auth-or-but">
-                                <img src="/img/Facebook-Logo.png" alt="" class="modal__auth-or-but-img">
-                                <p class="modal__auth-or-but-text">Facebook</p>
-                            </button>
-                            <button class="modal__auth-or-but">
-                                <img src="/img/Google__G__Logo.svg.png" alt="" class="modal__auth-or-but-img">
-                                <p class="modal__auth-or-but-text">Google</p>
-                            </button>
-                        </div>
-                        <div class="modal__login-footer">
-                            <p class="modal__auth-footer-text">
-                                Bạn mới biết đến Shopee?
-                                <a href="http://localhost:3000/register" class="modal__auth-footer-link">Đăng ký</a>
-                            </p>
-                        </div>
+                            <div class="option__log">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember</label>
+                                </div>
+                                <a href="javascript:void(0)">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn__log btn btn-primary">Login</button>
+
+                            <div class="modal__auth-or">_____________________OR_____________________</div>
+                            <div class="modal__auth-or-button">
+                                <button class="modal__auth-or-but">
+                                    <img src="/img/Facebook-Logo.png" alt="" class="modal__auth-or-but-img">
+                                    <p class="modal__auth-or-but-text">Facebook</p>
+                                </button>
+                                <button class="modal__auth-or-but">
+                                    <img src="/img/Google__G__Logo.svg.png" alt="" class="modal__auth-or-but-img">
+                                    <p class="modal__auth-or-but-text">Google</p>
+                                </button>
+                            </div>
+                            <div class="modal__login-footer">
+                                <p class="modal__auth-footer-text">
+                                    New to us?
+                                    <a id="link__reg" href="/register" class="footer__link-reg modal__auth-footer-link">Sign up</a>
+                                </p>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <label class="modal__auth-close-log">
-                    <i class="modal__auth-close-but fa-solid fa-left-long"></i>
-                </label>
             </div>
         </div>
     </div>
+    <a href="/home" class="modal__auth-close-reg">
+        <i class="modal__auth-close-but fa-solid fa-left-long"></i>
+    </a>
 </div>

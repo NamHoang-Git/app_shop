@@ -4,18 +4,40 @@
             <div class="slider__content">
                 <div class="row no-gutters">
                     <div class="col l-8">
-                        <a href="" class="slider__main-content">
-                            <img src="/img/slider-main.jpg" alt="" class="slider__main-content-img">
+                        <a href="javascript:void(0)" class="slider__main-content">
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="4500">
+                                    <img src="/img/slider-main.jpg" class="d-block w-100 slider__main-content-img" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="/img/slider-main1.jpg" class="d-block w-100 slider__main-content-img" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="/img/slider-main2.jpg" class="d-block w-100 slider__main-content-img" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                    {{!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> --}}
+                                    <i class="fa-solid fa-angle-left slider__btn"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <i class="fa-solid fa-angle-right slider__btn"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </a>
                     </div>
                     <div class="col l-4">
                         <div class="slider__sub-content">
-                            <a href="" class="slider__sub-content-link">
-                                <img src="/img/slider-sub1.jpg" alt="" class="slider__sub-content-img">
-                            </a>
-                            <a href="" class="slider__sub-content-link">
-                                <img src="/img/slider-sub2.jpg" alt="" class="slider__sub-content-img">
-                            </a>
+                            <a href="javascript:void(0)" class="slider__sub-content-link sub__slider-img-1"></a>
+                            <a href="javascript:void(0)" class="slider__sub-content-link sub__slider-img-2"></a>
                         </div>
                     </div>
                 </div>
@@ -23,49 +45,49 @@
                     <div class="col l-12">
                         <ul class="slider-list">
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item1.jpg" alt="" class="slider-item__link-img">
                                     <p class="slider-item__link-text">Miễn Phí Ship</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item2.jpg" alt="" class="slider-item__link-img">
                                     <p class="slider-item__link-text">Voucher Giảm Đến 500.000Đ</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item3.png" alt="" class="slider-item__link-img">
-                                    <p class="slider-item__link-text">Hàng Hiệu Outlet Giảm 50%</p>
+                                    <p class="slider-item__link-text">Hàng Hiệu Giảm 50%</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item4.png" alt="" class="slider-item__link-img">
                                     <p class="slider-item__link-text">Mã Giảm Giá</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item5.jpg" alt="" class="slider-item__link-img">
                                     <p class="slider-item__link-text">Gì Cũng Rẻ - Deal Sốc 9.000Đ</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item6.jpg" alt="" class="slider-item__link-img">
-                                    <p class="slider-item__link-text">Nạp Thẻ, Dịch Vụ & Khách Sạn</p>
+                                    <p class="slider-item__link-text">Nạp Thẻ & Dịch Vụ</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item7.jpg" alt="" class="slider-item__link-img">
                                     <p class="slider-item__link-text">Hàng Quốc Tế</p>
                                 </a>
                             </li>
                             <li class="slider-item">
-                                <a href="" class="slider-item__link">
+                                <a href="javascript:void(0)" class="slider-item__link">
                                     <img src="/img/slider-item8.jpg" alt="" class="slider-item__link-img">
                                     <p class="slider-item__link-text">Bắt Trend - Giá Sốc</p>
                                 </a>
@@ -84,31 +106,31 @@
                     <h4 class="directory-form__header">DANH MỤC</h4>
                 </div>
                 <div class="row no-gutters">
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory1.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Thời Trang Nam</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory2.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Điện Thoại & Phụ Kiện</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory3.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Thiết Bị Điện Tử</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
                                 <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
@@ -116,130 +138,130 @@
                             <p class="directory-form-name">Máy Tính & Laptop</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory5.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Máy Ảnh & Máy Quay Phim</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory6.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Đồng Hồ</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory7.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Giày Dép Nam</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory8.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Thiết Bị Điện Gia Dụng</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory9.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Thể Thao & Du Lịch</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory10.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Ô Tô & Xe Máy & Xe Đạp</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory11.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Thời Trang Nữ</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory12.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Mẹ & Bé</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory13.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Nhà Cửa & Đời Sống</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory14.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Sắc Đẹp</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory15.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Sức Khỏe</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory16.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Giày Dép Nữ</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory17.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Túi Ví Nữ</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory18.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Phụ Kiện & Trang Sức Nữ</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory19.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Bách Hóa Online</p>
                         </div>
                     </a>
-                    <a href="" class="col l-1-2 directory-form__link">
+                    <a href="javascript:void(0)" class="col l-1-2 directory-form__link">
                         <div class="product-form">    
                             <div class="directory__product">
-                                <img src="/img/Directory_img/directory20.png" alt="" class="directory-form-img">
+                                <img src="/img/Directory_img/directory4.png" alt="" class="directory-form-img">
                             </div>
                             <p class="directory-form-name">Nhà Sách Online</p>
                         </div>
@@ -252,20 +274,12 @@
         </div> 
     </div>
 
-    <div class="flash-sale">
-        <div class="grid wide">
-            <div class="flash-sale__content">
-
-            </div>
-        </div>
-    </div>
-
     <div class="banners">
         <div class="grid wide">
             <div class="row no-gutters">
                 <div class="col l-4">
                     <div class="banners__item">
-                        <a href="" class="banners__item-link">
+                        <a href="javascript:void(0)" class="banners__item-link">
                             <img src="/img/Banners-img/banner1.jpg" alt="" class="banners__item-img">
                             <div class="banners__item-arrow">
                                 <i class="banners__item-but fa-solid fa-angle-right"></i>
@@ -276,7 +290,7 @@
                 </div>
                 <div class="col l-4">
                     <div class="banners__item">
-                        <a href="" class="banners__item-link">
+                        <a href="javascript:void(0)" class="banners__item-link">
                             <img src="/img/Banners-img/banner2.jpg" alt="" class="banners__item-img">
                             <div class="banners__item-arrow">
                                 <i class="banners__item-but fa-solid fa-angle-right"></i>
@@ -287,8 +301,8 @@
                 </div>
                 <div class="col l-4">
                     <div class="banners__item">
-                        <a href="" class="banners__item-link">
-                            <img src="/img/Banners-img/banner3.png" alt="" class="banners__item-img">
+                        <a href="javascript:void(0)" class="banners__item-link">
+                            <img src="/img/Banners-img/banner3.jpg" alt="" class="banners__item-img">
                             <div class="banners__item-arrow">
                                 <i class="banners__item-but fa-solid fa-angle-right"></i>
                             </div>
@@ -305,7 +319,7 @@
             <div class="shopee-mall__header">
                 <ul class="shopee-mall__header-list">
                     <li class="shopee-mall__header-item">
-                        <a href="" class="shopee-mall__header-item-link">SHOP MALL</a>
+                        <a href="javascript:void(0)" class="shopee-mall__header-item-link">SHOP MALL</a>
                     </li>
                     <img src="/img/ShopeeMall_img/mall_icon1.png" alt="" class="shopee-mall__header-item-return">
                     <li class="shopee-mall__header-item"> 7 Ngày Miễn Phí Trả Hàng </li>
@@ -314,7 +328,7 @@
                     <img src="/img/ShopeeMall_img/mall_icon3.png" alt="" class="shopee-mall__header-item-car">
                     <li class="shopee-mall__header-item"> Miễn Phí Vận Chuyển </li>
                 </ul>
-                <a href="" class="shopee-mall__header-link">
+                <a href="javascript:void(0)" class="shopee-mall__header-link">
                     Xem Tất Cả
                     <div class="shopee-mall__header-link-btn">
                         <i class="shopee-mall__header-link-arrow fa-solid fa-angle-right"></i>
@@ -324,15 +338,15 @@
             <div class="shopee-mall__body">
                 <div class="row no-gutters">
                     <div class="col l-4">
-                        <a href="" class="shopee-mall__body-slide">
+                        <a href="javascript:void(0)" class="shopee-mall__body-slide">
                             <img src="/img/ShopeeMall_img/mall1.jpg" alt="" class="shopee-mall__body-img">
                         </a>
                     </div>
                     <div class="col l-8">
                         <div class="row no-gutters shopee-mall__body-items">
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item1_1.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item1.png" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -340,8 +354,8 @@
                                 <p class="shopee-mall__body-items-text">Mua là có quà</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item2_2.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item2.jpg" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -349,8 +363,8 @@
                                 <p class="shopee-mall__body-items-text">Deli siêu sale</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item3_3.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item3.png" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -358,8 +372,8 @@
                                 <p class="shopee-mall__body-items-text">Quà mọi nơi</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item4_4.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item4.png" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -367,8 +381,8 @@
                                 <p class="shopee-mall__body-items-text">Ưu đãi đến 50%</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item5_5.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item5.png" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -376,8 +390,8 @@
                                 <p class="shopee-mall__body-items-text">Mua là có quà</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item6_6.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item6.png" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -385,8 +399,8 @@
                                 <p class="shopee-mall__body-items-text">Giảm đến 50%</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item7_7.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item7.png" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -394,8 +408,8 @@
                                 <p class="shopee-mall__body-items-text">Mua 1 tặng 1</p>
                             </div>
                             <div class="col l-2-8 shopee-mall__body-content">
-                                <a href="" class="shopee-mall__body-item">
-                                    <img src="/img/ShopeeMall_img/body_item8_8.png" alt="" class="shopee-mall__body-item-img">
+                                <a href="javascript:void(0)" class="shopee-mall__body-item">
+                                    <img src="/img/ShopeeMall_img/body_item.png" alt="" class="shopee-mall__body-item-img">
                                     <div class="shopee-mall__body-item-logo">
                                         <img src="/img/ShopeeMall_img/body_item8.jpg" alt="" class="shopee-mall__body-item-logo-img">
                                     </div>
@@ -420,130 +434,208 @@
                         TÌM KIẾM HÀNG ĐẦU
                     </li>
                     <li class="top-search__header-list-item">
-                        <a href="" class="top-search__header-list-item-link">
+                        <a href="javascript:void(0)" class="top-search__header-list-item-link">
                             Xem tất cả <i class="top-search__header-arrow fa-solid fa-angle-right"></i>
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="top-search__body">
-                <div class="row top-search__body-content">
-                    <div class="col l-2">
-                        <a href="" class="top-search__body-link">
-                            <div class="top-search__body-link-content">
-                                <div class="top-search__body-link-content--box">
-                                    <img src="/img/Top_Search/top-search1.jpg" alt="" class="top-search__body-link-img">
-                                    <div class="top-search__body-link--top-but">
-                                        <div class="top-search__body-link--top-but-content">TOP</div>
-                                        <div class="top-search__body-link--top-but-arrow"></div>
-                                    </div>
-                                </div>                                        
-                                <div class="top-search__body-sub">
-                                    <p class="top-search__body-sub-text">
-                                        Bán 150k+ / tháng
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="top-search__body-link-text">Balo Thời Trang</p>
-                        </a>
-                    </div>
-                    <div class="col l-2">
-                        <a href="" class="top-search__body-link">
+                <div class="top-search__scroll">
+                    <div class="row top-search__body-content">
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
                                 <div class="top-search__body-link-content">
-                                <div class="top-search__body-link-content--box">
-                                    <img src="/img/Top_Search/top-search2.png" alt="" class="top-search__body-link-img">
-                                    <div class="top-search__body-link--top-but">
-                                        <div class="top-search__body-link--top-but-content">TOP</div>
-                                        <div class="top-search__body-link--top-but-arrow"></div>
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>                                        
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="top-search__body-sub">
-                                    <p class="top-search__body-sub-text">
-                                        Bán 150k+ / tháng
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="top-search__body-link-text">Áo Thun Local Brand</p>
-                        </a>
-                    </div>
-                    <div class="col l-2">
-                        <a href="" class="top-search__body-link">
-                                <div class="top-search__body-link-content">
-                                <div class="top-search__body-link-content--box">
-                                    <img src="/img/Top_Search/top-search3.png" alt="" class="top-search__body-link-img">
-                                    <div class="top-search__body-link--top-but">
-                                        <div class="top-search__body-link--top-but-content">TOP</div>
-                                        <div class="top-search__body-link--top-but-arrow"></div>
+                                <p class="top-search__body-link-text">Balo Thời Trang</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="top-search__body-sub">
-                                    <p class="top-search__body-sub-text">
-                                        Bán 150k+ / tháng
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="top-search__body-link-text">Thảm</p>
-                        </a>
-                    </div>
-                    <div class="col l-2">
-                        <a href="" class="top-search__body-link">
-                                <div class="top-search__body-link-content">
-                                <div class="top-search__body-link-content--box">
-                                    <img src="/img/Top_Search/top-search4.png" alt="" class="top-search__body-link-img">
-                                    <div class="top-search__body-link--top-but">
-                                        <div class="top-search__body-link--top-but-content">TOP</div>
-                                        <div class="top-search__body-link--top-but-arrow"></div>
+                                <p class="top-search__body-link-text">Áo Thun Local Brand</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="top-search__body-sub">
-                                    <p class="top-search__body-sub-text">
-                                        Bán 150k+ / tháng
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="top-search__body-link-text">Dây Nhảy Thể Dục</p>
-                        </a>
-                    </div>
-                    <div class="col l-2">
-                        <a href="" class="top-search__body-link">
-                                <div class="top-search__body-link-content">
-                                <div class="top-search__body-link-content--box">
-                                    <img src="/img/Top_Search/top-search5.png" alt="" class="top-search__body-link-img">
-                                    <div class="top-search__body-link--top-but">
-                                        <div class="top-search__body-link--top-but-content">TOP</div>
-                                        <div class="top-search__body-link--top-but-arrow"></div>
+                                <p class="top-search__body-link-text">Thảm</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="top-search__body-sub">
-                                    <p class="top-search__body-sub-text">
-                                        Bán 150k+ / tháng
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="top-search__body-link-text">Vòng Tay</p>
-                        </a>
-                    </div>
-                    <div class="col l-2">
-                        <a href="" class="top-search__body-link">
-                                <div class="top-search__body-link-content">
-                                <div class="top-search__body-link-content--box">
-                                    <img src="/img/Top_Search/top-search6.png" alt="" class="top-search__body-link-img">
-                                    <div class="top-search__body-link--top-but">
-                                        <div class="top-search__body-link--top-but-content">TOP</div>
-                                        <div class="top-search__body-link--top-but-arrow"></div>
+                                <p class="top-search__body-link-text">Dây Nhảy Thể Dục</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="top-search__body-sub">
-                                    <p class="top-search__body-sub-text">
-                                        Bán 150k+ / tháng
-                                    </p>
+                                <p class="top-search__body-link-text">Vòng Tay</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="top-search__body-link-text">Hộp Vải Đựng Đồ Đa Năng</p>
-                        </a>
-                    </div>
-                    <div class="top-search__arrow">
-                        <i class="top-search__arrow-but fa-solid fa-angle-right"></i>
+                                <p class="top-search__body-link-text">Hộp Vải Đựng Đồ Đa Năng</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="top-search__body-link-text">Hộp Vải Đựng Đồ Đa Năng</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="top-search__body-link-text">Hộp Vải Đựng Đồ Đa Năng</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="top-search__body-link-text">Hộp Vải Đựng Đồ Đa Năng</p>
+                            </a>
+                        </div>
+                        <div class="col l-2">
+                            <a href="javascript:void(0)" class="top-search__body-link">
+                                    <div class="top-search__body-link-content">
+                                    <div class="top-search__body-link-content--box">
+                                        <img src="/img/Top_Search/top-search.png" alt="" class="top-search__body-link-img">
+                                        <div class="top-search__body-link--top-but">
+                                            <div class="top-search__body-link--top-but-content">TOP</div>
+                                            <div class="top-search__body-link--top-but-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div class="top-search__body-sub">
+                                        <p class="top-search__body-sub-text">
+                                            Bán 150k+ / tháng
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="top-search__body-link-text">Hộp Vải Đựng Đồ Đa Năng</p>
+                            </a>
+                        </div>
+                        {{!-- <div class="top-search__arrow">
+                            <i class="top-search__arrow-but fa-solid fa-angle-right"></i>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -553,13 +645,13 @@
     <div class="suggest-day">
         <div class="grid wide">
             <div class="suggest-day__header">
-                <a href="" class="suggest-day__header-text">GỢI Ý HÔM NAY</a>
+                <a href="javascript:void(0)" class="suggest-day__header-text">GỢI Ý HÔM NAY</a>
             </div>
 
             <div class="suggest-day__body">
                 <div class="row">
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -576,7 +668,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -585,7 +677,7 @@
                     </div>    
                     
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -602,7 +694,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -611,7 +703,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -628,7 +720,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -637,7 +729,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -654,7 +746,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -663,7 +755,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -680,7 +772,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -689,7 +781,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -706,7 +798,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -715,7 +807,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -732,7 +824,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -741,7 +833,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -758,7 +850,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -767,7 +859,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -784,7 +876,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -793,7 +885,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -810,7 +902,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -819,7 +911,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -836,7 +928,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -845,7 +937,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -862,7 +954,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -871,7 +963,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -888,7 +980,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -897,7 +989,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -914,7 +1006,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -923,7 +1015,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -940,7 +1032,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -949,7 +1041,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -966,7 +1058,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -975,7 +1067,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -992,7 +1084,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -1001,7 +1093,7 @@
                     </div>
 
                     <div class="col l-2 suggest-day__body-content-item">
-                        <a href="" class="suggest-day__body-link">
+                        <a href="javascript:void(0)" class="suggest-day__body-link">
                             <img src="https://cdn.tgdd.vn/Products/Images/42/329135/iphone-16-blue-600x600.png" alt="" class="suggest-day__body-link-img">
                             <div class="suggest-day__body-link-info">
                                 <p class="suggest-day__body-link-text">iPhone 16 128GB (VN/A) | Chính hãng, giảm đến 15% phụ kiện khác</p>
@@ -1018,7 +1110,7 @@
                             <div class="suggest-day__body-link-info--sale-sticker">
                                 <p class="suggest-day__body-link-info--sale-stiker-text">-13%</p>
                             </div>
-                            <a href="" class="suggest-day__body-search-similar">
+                            <a href="javascript:void(0)" class="suggest-day__body-search-similar">
                                 <div class="suggest-day__body-search-similar-content">
                                     <p class="suggest-day__body-search-similar-text">Tìm sản phẩm tương tự</p>
                                 </div>
@@ -1032,130 +1124,11 @@
     </div>
 
     <div class="more">
-        <a href="" class="more__link">Xem Thêm</a>
+        <a href="javascript:void(0)" class="more__link">Xem Thêm</a>
     </div>
 </div>
 
-<!-- Modal -->
-<div class="modal__overlay"></div> 
-    <!-- Register Form -->
-    <div class="grid log__in-abs drift-register">
-        <div class="row no-gutters">
-            <div class="col l-7">
-                <div class="grid__item">
-                    <img src="/img/a-shop-logo-simply-store_11042313.png!f305cw" alt="" class="modal__authen-img">
-                    <p class="modal__authen-text">Nền tảng thương mại điện tử</p>
-                    <p class="modal__authen-text">yêu thích ở Đông Nam Á & Đài Loan</p>
-                </div>
-            </div>
-            <div class="col l-5">
-                <div class="grid__item">
-                    <div class="modal__body">
-                        <div class="modal__register">
-                            <div class="modal__register-header">
-                                <h3 class="modal__auth-heading">Đăng ký</h3>
-                            </div>
-                            <div class="modal__auth-form">
-                                <input type="text" class="modal__auth-input" placeholder="Số điện thoại">
-                                <div class="modal__auth-button">
-                                    <button class="modal__auth-but">TIẾP THEO</button>
-                                </div>
-                            </div>
-                            <div class="modal__auth-or">HOẶC</div>
-                            <div class="modal__auth-or-button">
-                                <button class="modal__auth-or-but">
-                                    <img src="/img/Facebook-Logo.png" alt="" class="modal__auth-or-but-img">
-                                    <p class="modal__auth-or-but-text">Facebook</p>
-                                </button>
-                                <button class="modal__auth-or-but">
-                                    <img src="/img/Google__G__Logo.svg.png" alt="" class="modal__auth-or-but-img">
-                                    <p class="modal__auth-or-but-text">Google</p>
-                                </button>
-                            </div>
-                            <div class="modal__auth-rules">
-                                <p class="modal__auth-rule-text">
-                                    Bằng việc đăng kí, bạn đã đồng ý với Shopee về
-                                    <a href="" class="modal__auth-rule-link">Điều khoản dịch vụ</a> &
-                                    <a href="" class="modal__auth-rule-link">Chính sách bảo mật</a>
-                                </p>
-                            </div>
-                            <div class="modal__register-footer">
-                                <p class="modal__auth-footer-text">
-                                    Bạn đã có tài khoản? 
-                                    <label for="modal__log-checkbox" class="footer__link-log modal__auth-footer-link">Đăng nhập</label>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <label class="modal__auth-close-reg">
-                        <i class="modal__auth-close-but fa-solid fa-left-long"></i>
-                    </label>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!---->
-    <!-- LogIn Form -->
-    <div class="grid log__in-abs drift-login">
-        <div class="row no-gutters">
-            <div class="col l-7">
-                <div class="grid__item">
-                    <img src="/img/a-shop-logo-simply-store_11042313.png!f305cw" alt="" class="modal__authen-img">
-                    <p class="modal__authen-text">Nền tảng thương mại điện tử</p>
-                    <p class="modal__authen-text">yêu thích ở Đông Nam Á & Đài Loan</p>
-                </div>
-            </div>
-            <div class="col l-5">
-                <div class="grid__item">
-                    <div class="modal__body">
-                        <div class="modal__register">
-                            <div class="modal__login-header">
-                                <h3 class="modal__auth-heading">Đăng nhập</h3>
-                                <div class="modal__login-qr-form">
-                                    <div class="modal__login-qr modal__login-qr--arrow">
-                                        <p class="modal__login-qr-heading">Đăng nhập với mã QR</p>
-                                    </div>
-                                    <a href="" class="modal__login-qr-link">
-                                        <img src="/img/qr_icon.png" alt="" class="modal__login-qr-img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="modal__auth-form">
-                                <input type="text" class="modal__auth-input" placeholder="Email/Số điện thoại/Tên đăng nhập">
-                                <input type="password" class="modal__auth-input" placeholder="Mật khẩu">
-                                <div class="modal__auth-button">
-                                    <button class="modal__auth-but">ĐĂNG NHẬP</button>
-                                </div>
-                                <div class="modal__auth-sub-title">
-                                    <a href="" class="modal__auth-subtit">Quên mật khẩu</a>
-                                    <a href="" class="modal__auth-subtit">Đăng nhập với SMS</a>
-                                </div>
-                            </div>
-                            <div class="modal__auth-or">HOẶC</div>
-                            <div class="modal__auth-or-button">
-                                <button class="modal__auth-or-but">
-                                    <img src="/img/Facebook-Logo.png" alt="" class="modal__auth-or-but-img">
-                                    <p class="modal__auth-or-but-text">Facebook</p>
-                                </button>
-                                <button class="modal__auth-or-but">
-                                    <img src="/img/Google__G__Logo.svg.png" alt="" class="modal__auth-or-but-img">
-                                    <p class="modal__auth-or-but-text">Google</p>
-                                </button>
-                            </div>
-                            <div class="modal__login-footer">
-                                <p class="modal__auth-footer-text">
-                                    Bạn mới biết đến Shopee?
-                                    <label for="modal__log-checkbox" class="footer__link-reg modal__auth-footer-link">Đăng ký</label>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <label for="modal__log-checkbox" class="modal__auth-close-log">
-                        <i class="modal__auth-close-but fa-solid fa-left-long"></i>
-                    </label>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!---->
-<!-- End -->
+<div class="chat__box">
+    <img src="https://cdn-icons-png.flaticon.com/512/4616/4616271.png" alt="">
+    <span>Chat Live</span>
+</div>

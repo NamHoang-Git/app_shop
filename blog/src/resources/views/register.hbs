@@ -1,58 +1,81 @@
 <!-- Register Form -->
-<div class="modal__overlay"></div>
-<!-- Register Form -->
-<div class="grid log__in-abs">
-    <div class="row no-gutters">
-        <div class="col l-7">
-            <div class="grid__item">
-                <img src="/img/shopee-w.png" alt="" class="modal__authen-img">
-                <p class="modal__authen-text">Nền tảng thương mại điện tử</p>
-                <p class="modal__authen-text">yêu thích ở Đông Nam Á & Đài Loan</p>
-            </div>
-        </div>
-        <div class="col l-5">
-            <div class="grid__item">
-                <div class="modal__body">
-                    <div class="modal__register">
-                        <div class="modal__register-header">
-                            <h3 class="modal__auth-heading">Đăng ký</h3>
+<div class="modal__overlay">
+    <!-- Register Form -->
+    <div class="grid">
+        <div class="register">
+            <div class="row no-gutters">
+                <div class="col l-7">
+                    <div class="reg__form">
+                        <div class="modal__login-header">
+                            <h3 class="modal__auth-heading">SIGN UP</h3>
                         </div>
-                        <div class="modal__auth-form">
-                            <input type="text" class="modal__auth-input" placeholder="Số điện thoại">
-                            <div class="modal__auth-button">
-                                <button class="modal__auth-but">TIẾP THEO</button>
+                        <form>
+                            <div class="reg__name mb-4">
+                                <div class="form-floating reg__name-box">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                                    <label for="floatingInput">First Name</label>
+                                </div>
+                                <div class="form-floating reg__name-box">
+                                    <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                                    <label for="floatingInput">Last Name</label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="modal__auth-or">HOẶC</div>
-                        <div class="modal__auth-or-button">
-                            <button class="modal__auth-or-but">
-                                <img src="/img/Facebook-Logo.png" alt="" class="modal__auth-or-but-img">
-                                <p class="modal__auth-or-but-text">Facebook</p>
-                            </button>
-                            <button class="modal__auth-or-but">
-                                <img src="/img/Google__G__Logo.svg.png" alt="" class="modal__auth-or-but-img">
-                                <p class="modal__auth-or-but-text">Google</p>
-                            </button>
-                        </div>
-                        <div class="modal__auth-rules">
-                            <p class="modal__auth-rule-text">
-                                Bằng việc đăng kí, bạn đã đồng ý với Shopee về
-                                <a href="" class="modal__auth-rule-link">Điều khoản dịch vụ</a> &
-                                <a href="" class="modal__auth-rule-link">Chính sách bảo mật</a>
-                            </p>
-                        </div>
-                        <div class="modal__register-footer">
-                            <p class="modal__auth-footer-text">
-                                Bạn đã có tài khoản? 
-                                <a href="http://localhost:3000/home" class="modal__auth-footer-link">Đăng nhập</a>
-                            </p>
-                        </div>
+                            <div class="form-floating mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input type="tel" class="form-control" id="floatingInput" placeholder="Phone Number" pattern="[0-9]{10}">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Confirm Password</label>
+                            </div>
+                            <button type="submit" class="btn__log btn btn-primary">Sign Up</button>
+
+                            <div class="modal__auth-or">_____________________OR_____________________</div>
+                            <div class="modal__auth-or-button">
+                                <button class="modal__auth-or-but">
+                                    <img src="/img/Facebook-Logo.png" alt="" class="modal__auth-or-but-img">
+                                    <p class="modal__auth-or-but-text">Facebook</p>
+                                </button>
+                                <button class="modal__auth-or-but">
+                                    <img src="/img/Google__G__Logo.svg.png" alt="" class="modal__auth-or-but-img">
+                                    <p class="modal__auth-or-but-text">Google</p>
+                                </button>
+                            </div>
+                            <div class="modal__auth-rules">
+                                <p class="modal__auth-rule-text">
+                                    By signing up, you agree to our
+                                    <a href="javascript:void(0)" class="modal__auth-rule-link">Terms of Service</a> &
+                                    <a href="javascript:void(0)" class="modal__auth-rule-link">Privacy Policy</a>
+                                </p>
+                            </div>
+                            <div class="modal__login-footer">
+                                <p class="modal__auth-footer-text">
+                                    Already have an account?
+                                    <a id="link__login" href="/login" class="footer__link-log modal__auth-footer-link">Login</a>
+                                </p>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <label class="modal__auth-close-reg">
-                    <i class="modal__auth-close-but fa-solid fa-left-long"></i>
-                </label>
+
+                <div class="col l-5">
+                    <div class="mess_log">
+                        <h1>Welcome to website</h1>
+                        <p>Register with your personal details to use all of site features</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <a href="/home" class="modal__auth-close-reg">
+        <i class="modal__auth-close-but fa-solid fa-left-long"></i>
+    </a>
 </div>
