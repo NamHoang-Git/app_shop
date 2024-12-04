@@ -22,16 +22,32 @@ app.engine("hbs", engine({
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "resources/views"));
 
-app.get("/home", (req, res) => {
-	res.render("home");
-});
+// app.get("/home", (req, res) => {
+// 	res.render("home");
+// });
 
-app.get("/register", (req, res) => {
-	res.render("register");
+// app.get("/register", (req, res) => {
+// 	res.render("register");
+// });
+
+// app.get("/login", (req, res) => {
+// 	res.render("login");
+// });
+
+app.get("/home", (req, res) => {
+    res.render("home", { isAuthPage: false });
 });
 
 app.get("/login", (req, res) => {
-	res.render("login");
+    res.render("login", { isAuthPage: true });
+});
+
+app.get("/register", (req, res) => {
+    res.render("register", { isAuthPage: true });
+});
+
+app.get("/app", (req, res) => {
+	res.render("app", { isAuthPage: true });
 });
 
 // app.post("/search", (req, res) => {
