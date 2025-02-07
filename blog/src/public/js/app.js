@@ -68,6 +68,32 @@ document.addEventListener("DOMContentLoaded", function() {
     //     driftLogin.classList.add('active');
     // }
 
+    document.querySelectorAll('.suggest-day__body-search-similar-text').forEach(button => {
+        button.addEventListener('click', event => {
+            const productId = event.target.dataset.productId;
+            addToCart(productId);
+        });
+    });
+    
+    function addToCart(productId) {
+        // Logic thêm sản phẩm vào giỏ hàng
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push(productId);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        
+        updateCartIcon();
+    }    
+
+    function updateCartIcon() {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        document.querySelector('.shopping-cart-but').innerText = cart.length;
+    }
+    
+    // Gọi hàm này khi tải lại trang để đảm bảo giỏ hàng được cập nhật
+    updateCartIcon();
+
+    // ----------------------
+
     // Chuyển hướng đến trang đăng ký
     function redirectToRegister() {
         window.location.href = '/register';
